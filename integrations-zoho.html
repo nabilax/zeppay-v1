@@ -30,7 +30,6 @@
 	<!-- # Main Style Sheet -->
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styleh.css">
-    <link rel="stylesheet" href="css/planstyle.css">
 </head>
 
 <body>
@@ -47,9 +46,9 @@
        </div>
        <div class="col-lg-9 d-flex justify-content-end pl-4">
          <ul class="list-inline">
-           <li class="list-inline-item"><a class="text-white" href="notice.html">Login</a></li>
-           <li class="list-inline-item"><a type="button" class="btn d-inline-block" style="background-color: white; color: #fe015b;" href="#loginModal" data-toggle="modal" data-target="#loginModal">Free Sign Up</a></li>
-           <li class="list-inline-item"><a type="button" class="btn d-inline-block" style="background-color: white; color: #fe015b;" href="#signupModal" data-toggle="modal" data-target="#signupModal">Request Demo</a></li>
+           <li class="list-inline-item"><a class="text-white" href="signin.html">Login</a></li>
+           <li class="list-inline-item"><a type="button" class="px-2 py-1" style="background-color: white; color: #fe015b; border-radius: 2px;" href="signup.html" >Free Sign Up</a></li>
+           <li class="list-inline-item"><a type="button" class="px-2 py-1" style="background-color: white; color: #fe015b; border-radius: 2px;" href="" data-bs-toggle="modal" data-bs-target="#talkExpert">Request Demo</a></li>
          </ul>
        </div>
      </div>
@@ -97,7 +96,7 @@
                <li><a class="dropdown-item" href="Vehicle-rentals.html">Vehicle Rentals</a></li>
                <li><a class="dropdown-item" href="Gyms-Fitness-Centers.html">Gyms</a></li>
                <li><a class="dropdown-item" href="Vocational-Schools.html">Vocational Schools</a></li>
-               <li><a class="dropdown-item" href="Building-Apartment-Maintenance.html">Building Maintenance</a></li>
+               <li><a class="dropdown-item" href="Building-Apartment-Maintainance.html">Building Maintenance</a></li>
                <li><a class="dropdown-item" href="Insurance-premiums.html">Insurance Premiums</a></li>
              </ul>
              <ul>
@@ -157,53 +156,63 @@
           </div>
           </div>
           <div class="form-group mb-3">
-          <label for="business_type" class="form-label">Business Type</label>
-          <select name="business_type" id="business_type" class="form-control form-select" required="">
-          <option value="" selected="" disabled="">-Business Type-</option>
-          <optgroup label="Retail">
-          <option value="SUPERMARKET">Supermarkets</option>
-          <option value="TEXTILE STORES">Textile stores</option>
-          <option value="MOBILE SHOP">Mobile Shop</option>
-          <option value="JEWELLERY STORE">Jewellery stores</option>
-          <option value="CAFE AND BAKERY">Cafe &amp; Restaurant</option>
-          <option value="" disabled=""></option>
-          </optgroup>
-          <optgroup label="Manufacturer &amp; Distribution">
-          <option value="WHOLESALE &amp; DISTRIBUTORS">Wholesale &amp; Distribution</option>
-          <option value="E-COMMERCE">E-commerce company backend</option>
-          <option value="CONTRACTORS">Contractors</option>
-          <option value="MANUFACTURERS">Manufacturers</option>
-          <option value="IMPORTERS &amp; EXPORTERS">Importers or Exporters</option>
-          <option value="" disabled=""></option>
-          </optgroup>
-          <optgroup label="Services">
-          <option value="ACCOUNTANTS">Accountants</option>
-          <option value="CONSULTANTS AND AGENTS">Consultants and Freelancers</option>
-          <option value="RENTAL BUSINESS">Rentals &amp; Subscription business</option>
-          <option value="REPAIR AND SERVICING">Repair and Servicing</option>
-          <option value="" disabled=""></option>
-          </optgroup>
-          <optgroup label="Automobile">
-          <option value="USED CAR DEALERS">Used Car dealers</option>
-          <option value="CAR RENTAL">Car Rentals</option>
-          <option value="CAR WORKSHOP">Workshops &amp; Repair service</option>
-          <option value="AUTO SPARE PARTS">Auto Spare Parts</option>
-          <option value="TRANSPORTERS">Transporters</option>
-          <option value="" disabled=""></option>
-          </optgroup>
-          <optgroup label="">
-          <option value="OTHERS">Others</option>
-          <option value="" disabled=""></option>
-          </optgroup>
-          <optgroup label="">
-            <option value="SELECTED" selected="">--Select--</option>
-            <option value="" disabled=""></option>
-            </optgroup>
-          </select>
+            <label for="business_type" class="fw-bold">Business Type</label>
+            <select name="business_type" id="business_type" class="form-control form-select" required="">
+            <option value="" selected="" disabled="">Choose Your Business Type</option>
+  <optgroup label="FEES">
+          <option value="Badmiton coaching">Badmiton coaching</option>
+          <option value="Dance School">Dance School</option>
+          <option value="Martial arts coaching">Martial arts coaching</option>
+          <option value="Music schools">Music schools</option>
+         <option value="Sports Acadamy">Sports Acadamy</option>
+   </optgroup>
+
+  <optgroup label="INSTALMENTS">
+      <option value="Hire Purchase">Hire Purchase</option>
+      <option value="Small Money Lender">Small Money Lender</option>
+  </optgroup>
+
+  <optgroup label="INVOICES">
+      <option value="Manufacturer">Manufacturer</option>
+      <option value="Trader">Trader</option>
+      <option value="Wholesaler">Wholesaler</option>
+  </optgroup>
+
+   <optgroup label="MAINTENANCE">
+      <option value="Air conditioner">Air conditioner</option>
+      <option value="Building">Building</option>
+      <option value="Home Appliances">Home Appliances</option>
+      <option value="Vehicle">Vehicle</option>
+  </optgroup>
+
+  <optgroup label="RENTALS">
+          <option value="Aircon rentals">Aircon rentals</option>
+          <option value="Car rentals">Car rentals</option>
+          <option value="Computer rentals">Computer rentals</option>
+  </optgroup>
+
+  <optgroup label="SAVINGS">
+       <option value="Finance Chit">Finance Chit</option>
+        <option value="Gold Chit">Gold Chit</option>
+</optgroup>
+
+<optgroup label="SUBSCRIPTION">
+        <option value="Club">Club</option>
+        <option value="Gym">Gym</option>
+        <option value="Magazine">Magazine</option>
+        <option value="SaaS">SaaS</option>
+</optgroup>
+
+ <optgroup label="OTHERS">
+       <option value="Others">Others</option>
+
+</optgroup>
+
+</select>
           </div>   
          <!-- Submit and Close Buttons -->
          <div class="d-flex justify-content-end">
-          <button type="submit" class="btn btn-primary me-2">Submit</button>
+          <button type="submit" class="btn me-2" style="background-color: #fe015b" >Submit</button>
         </div>            
         </form>
       </div>
@@ -469,8 +478,9 @@
         <div class="col-lg-3 mr-auto col-sm-6">
           <div class="widget mb-5 mb-lg-0">
             <div class="logo mb-4">
-              
-            <img src="images/logo_white.png" alt="" width="200" height="auto" class="img-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo_white.png" alt="" width="200" height="auto" class="img-fluid">
+              </a>
             </div>
             <h3 class="text-white">United States
             </h3>
@@ -487,8 +497,8 @@
         <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="widget mb-5 mb-lg-0">
             <h4 class="text-capitalize text-white" >Singapore</h4>
-  <p class="text-white">8, New Industrial Road #06-03
-    Singapore 536200</p>
+            <p class="text-white">8, New Industrial Road #06-03
+              Singapore 536200</p>
             <ul class="list-unstyled footer-menu mb-4 lh-35">
               <h6><a href="tel: +65 9895 1817"  class="text-white" > <i class="bi bi-telephone-fill" style="color:#F4104E"></i>   +65 9895 1817</a></h6>
               <h6><a href="mailto:info@zeppay.com"  class="text-white"> <i class="bi bi-envelope-fill" style="color:#F4104E"></i> info@zeppay.com</a></h6>
@@ -511,26 +521,30 @@
             <h4 class="text-capitalize text-white">Quick Link</h4>
   
             <ul class="list-unstyled footer-menu lh-35 ">
-              <li><a href="#" class="text-white">Home</a></li>
-              <li><a href="#" class="text-white">Features</a></li>
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li><a href="features.html" class="text-white">Features</a></li>
               <li><a href="#" class="text-white">Upgrade</a></li>
-              <li><a href="#" class="text-white">Blog</a></li>
-              <li><a href="#" class="text-white">Contact Us</a></li>
+              <li><a href="https://blog.zeppay.com/" class="text-white">Blog</a></li>
+              <li><a href="contact.html" class="text-white">Contact Us</a></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="widget widget-contact mb-5 mb-lg-0">
-            <h4 class="text-capitalize mb-4 text-white">Get in Touch</h4>
-            <h6><a href="tel:+332-269-9104" class="text-white" > <i class="bi bi-telephone-fill" style="color:#F4104E"></i>  +(332) 269-9104</a></h6>
-            <h6><a href="mailto:info@zeppay.com"  class="text-white" > <i class="bi bi-envelope-fill" style="color:#F4104E"></i> info@zeppay.com</a></h6>
+            <h4 class="text-capitalize text-white">Our Policies</h4>
+            <ul class="list-unstyled footer-menu lh-35 ">
+              <li><a href="personal-data-protection-policy.html" class="text-white">Privacy Policy</a></li>
+              <li><a href="terms-and-conditions.html" class="text-white">Terms of Use</a></li>
+            </ul>
   
             <ul class="list-unstyled list-inline mb-0 social-icons pt-2">
-              <li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-white" href="https://www.facebook.com/ReachAccountant/"><i class="fab fa-facebook-f"></i></a>
+              <li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-white" href="https://www.facebook.com/zeppaysoftware"><i class="fab fa-facebook-f"></i></a>
               </li>
-              <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-white" href="https://twitter.com/ReachAccountant"><i class="fab fa-twitter"></i></a>
+              <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-white" href="https://twitter.com/zeppaysoftware"><i class="fab fa-twitter"></i></a>
               </li>
-              <li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-white" href="https://www.youtube.com/channel/UCK_0JbRG4e09PFYCa1cUV_g"><i class="fab fa-youtube"></i></a>
+              <li class="list-inline-item me-3"><a title="Explorer Youtube Profile" class="text-white" href="https://www.youtube.com/channel/UCEH4u3Wm8WWTTKq836Ct0EA"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-white" href="https://www.instagram.com/zeppay_software"><i class="fab fa-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -541,13 +555,12 @@
         <div class="row">
           <div class="col-lg-12 ">
             <hr class="text-white">
-            <p class="text-white">Copyright © 2020, www.zeppy.com</p>
+            <p class="text-white">Copyright © 2020, www.zeppay.com</p>
           </div>
         </div>
       </div>
     </div>
   </footer>
-
 
 <!-- # JS Plugins -->
 
