@@ -9027,11 +9027,10 @@ blockquote::before {
   padding: -3px 0 0 0;
   z-index: 5;
   background: #fff;
-  background: url("../images/bg/main-banner2.png") no-repeat 80% 80%;
+  background: url("../images/bg/main-banner.png") no-repeat 80% 80%;
   min-height: 700px;
   background-size: cover;
 }
-
 
 
 .banner .block h1, .banner .block .h1 {
