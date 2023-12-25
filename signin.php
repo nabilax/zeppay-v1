@@ -1,48 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <meta name="description" content="" />
-      <meta name="author" content="" />
-      <meta name="generator" content="Hugo 0.84.0" />
-      <link rel="canonical" href="" />
-      <link rel="icon" type="image/png" href="https://app.zeppay.com/zeppay/images/fav.png" />
-      <title>ZepPay</title>
-      <!-- CSRF Token -->
-       <!-- CSRF Token -->
-       <meta name="csrf-token" content="PzNVOgGSBGUCc98GAlglTdb8z17yHmrcdZxozmYS" />
-       <link rel="stylesheet" href="https://app.zeppay.com/dist/css/bootstrap.min.css" />
-       <link rel="stylesheet" href="https://app.zeppay.com/zeppay/css/select2_4.1.0.min.css" />
-       <link rel="stylesheet" href="https://app.zeppay.com/zeppay/css/responsive.css" />
-       <link rel="stylesheet" href="https://app.zeppay.com/zeppay/css/bootstrap-datepicker_1.8.0.css" />
-       <link rel="stylesheet" href="https://app.zeppay.com/zeppay/int-tel-input/css/intlTelInput.min.css">
+<?php
+    include( './includes/header.php');
+?>
 
-      <!-- SEO - init -->
-      <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-11055631492");</script>
-      <!-- Google Tag Manager -->
-      <script>!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-MDHPRFR",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer");</script>
-      <!-- End Google Tag Manager -->
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDHPRFR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-      <!-- Meta Pixel Code -->
-      <script>!function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src="https://connect.facebook.net/en_US/fbevents.js",(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,"script"),fbq("init","820800516495365"),fbq("track","PageView");</script>
-      <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=820800516495365&ev=PageView&noscript=1"/></noscript>
-      <!-- End Meta Pixel Code -->
-      <!-- SEO - finished -->
-      <script>
-            var cGroupAddIterate = 0;
-            var cGroupAddNewRowAdd = '';
-            var userMinimumAmount = `0`;
-            var userMaxAmount = `0`;
-      </script>        <script>
-            var jsLoader = '<div class="loading-ellipsis"><div class="ellipse ellips-1"></div><div class="ellipse ellips-2"></div><div class="ellipse ellips-3"></div><div class="ellipse ellips-4"></div></div>';
-            var assetJsUrl = 'https://app.zeppay.com/';
-        </script>
-    </head>
-    <body>
+
+<!-- navigation -->
+<?php
+    include( './includes/nav.php');
+?>
+<!-- /navigation -->
+
         <div class="container-fluid">
 
             <div class="alert alert-success commonSuccess alert-dismissible fade show" role="alert" style="display: none;">
@@ -227,6 +193,10 @@
         </div>
     </div>
 </div>
+
+<?php
+    include( './includes/footer.php');
+?>
 <!-- End - Help details - modal -->
 
 <script src="https://app.zeppay.com/dist/js/bootstrap.bundle.min.js"></script>
@@ -435,5 +405,3 @@
                     });
     </script>
         </div>
-    </body>
-</html>

@@ -1,240 +1,14 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-	<meta charset="utf-8">
-	<title>Zeppay | Accounts Receivable Software</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta name="author" content="Zeppay Software" />
-  <meta name="description" content="Zeppay is an accounts receivable software which automates payment reminder, reduce daily sales outstanding and Get paid money faster." />
-  <meta name="keywords" content="debt collection software, day sales outstanding, DSO, payment collection software, payment reminder software, money collection software, accounts receivable software" />
-
-	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-	<link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-
-	<!-- # Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-
-	<!-- # CSS Plugins -->
-	<link rel="stylesheet" href="plugins/slick/slick.css">
-	<link rel="stylesheet" href="plugins/font-awesome/fontawesome.min.css">
-	<link rel="stylesheet" href="plugins/font-awesome/brands.css">
-	<link rel="stylesheet" href="plugins/font-awesome/solid.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
-  <link rel="stylesheet" href="plugins/modal-video/modal-video.css">
-  <link rel="stylesheet" href="plugins/animate-css/animate.css">
-
-	<!-- # Main Style Sheet -->
-	<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/styleh.css">
- 
-  
-  <!-- Country code phone input -->
-  <link rel="stylesheet" href="css/countrycode.css">
-  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
-
-  <!-- slick slider -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
-<!-- Include Animate.css in your HTML -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/4.1.1/animate.min.css">
-
-
-  
-</head>
-
-<body>
-
+<?php
+    include( './includes/header.php');
+?>
 <!-- navigation -->
-<header class="navigation ">
-   <!-- top header -->
-  <div class="top-header" style="background-color: #fe015b;">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-lg-3 text-center text-lg-left">
-          
-        </div>
-        <div class="col-lg-9 d-flex justify-content-end pl-4">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="text-white" href="signin.html">Login</a></li>
-            <li class="list-inline-item"><a type="button" class="px-2 py-1" style="background-color: white; color: #fe015b; border-radius: 2px;" href="signup.html" >Free Sign Up</a></li>
-            <li class="list-inline-item"><a type="button" class="px-2 py-1" style="background-color: white; color: #fe015b; border-radius: 2px;" href="" data-bs-toggle="modal" data-bs-target="#talkExpert">Request Demo</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <nav class="navbar navbar-expand-xl navbar-light text-center shadow-bottom">
-    <div class="container">
-      <div class="col-lg-8 d-flex justify-content-start"> 
-      <a class="navbar-brand" href="index.html">
-        <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="images/logo.png" alt="Wallet">
-      </a>
-    </div>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      
-        <ul class="navbar-nav mx-auto mb-lg-0 ">
-
-          <!-- More menu items here -->
-        </ul>
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6">
-          <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Who We Serve?</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <ul>
-
-                <li><a class="dropdown-item" href="integrations-zoho.html">Zoho Users</a></li>
-                <li><a class="dropdown-item" href="integrations-Quickbooks.html">Quickbook Users</a></li>
-                <li><a class="dropdown-item" href="integrations-xero.html">Xero Users</a></li>
-                <li><a class="dropdown-item" href="integrations-wave.html">Wave Users</a></li>
-                <li><a class="dropdown-item" href="integrations-sap.html">SAP Users</a></li>
-              </ul>
-              <ul>
-                <li><a class="dropdown-item" href="integrations-FreshBooks.html">Freshbook Users</a></li>
-                <li><a class="dropdown-item" href="chits.html">Chits</a></li>
-                <li><a class="dropdown-item" href="school.html">Schools</a></li>
-                <li><a class="dropdown-item" href="Money-lenders.html">Money Lenders</a></li>
-                <li><a class="dropdown-item" href="Hire-purchase.html">Hire Purchase</a></li>
-              </ul>
-              <ul>
-
-                <li><a class="dropdown-item" href="Vehicle-rentals.html">Vehicle Rentals</a></li>
-                <li><a class="dropdown-item" href="Gyms-Fitness-Centers.html">Gyms</a></li>
-                <li><a class="dropdown-item" href="Vocational-Schools.html">Vocational Schools</a></li>
-                <li><a class="dropdown-item" href="Building-Apartment-Maintainance.html">Building Maintenance</a></li>
-                <li><a class="dropdown-item" href="Insurance-premiums.html">Insurance Premiums</a></li>
-              </ul>
-              <ul>
-
-                <li><a class="dropdown-item" href="Magazine-billing.html">Magazine Billing</a></li>
-                <li><a class="dropdown-item" href="Machinery-Rentals.html">Machinery Rentals</a></li>
-                <li><a class="dropdown-item" href="saas.html">SaaS Companies</a></li>
-                <li><a class="dropdown-item" href="Debt-Collection-Software.html">Debt Collection Software</a></li>
-                <li><a class="dropdown-item" href="Sports-Academy-Fees-Collection-Software.html">Sports Academy</a></li>
-            </ul>
-          </div>
-          </li>
-          <li class="nav-item"> <a class="nav-link" href="pricing.html">Pricing</a>
-          </li>
-          <li class="nav-item "> <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          </li>
-          <!-- More menu items here -->
-        </ul>
-       
-      </div>
-      </div>
-
-
-  </nav>
-</header>
+<?php
+    include( './includes/nav.php');
+?>
 <!-- /navigation -->
-
-<div class="modal talkExpertModal fade" id="talkExpert" tabindex="-1" aria-labelledby="talkExpertLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content bg-tertiary">
-      <div class="modal-header border-bottom-0">
-        <h4 class="modal-title" id="exampleModalLabel">Talk To An Expert</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form action="#!" method="post">
-          <!-- Name and Business Type Inputs -->
-          <div class="mb-3 form-group">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" name="name" class="form-control" placeholder="Your Name">
-          </div>
-          <!-- Phone Number Input in Bootstrap Form -->
-          <div class="mb-3 select-box">
-          <div class="selected-option">
-          <div>
-          <span class="iconify" data-icon="flag:in-4x3"></span>
-          <strong>+91</strong>
-          </div>
-          <input type="tel" name="tel" class="form-control" placeholder="Your Phone Number">
-          </div>
-          <div class="options">
-          <input type="text" class="search-box" placeholder="Search Country Name">
-          <ol>
-            
-          </ol>
-          </div>
-          </div>
-          <div class="form-group mb-3">
-            <label for="business_type" class="fw-bold">Business Type</label>
-            <select name="business_type" id="business_type" class="form-control form-select" required="">
-            <option value="" selected="" disabled="">Choose Your Business Type</option>
-  <optgroup label="FEES">
-          <option value="Badmiton coaching">Badmiton coaching</option>
-          <option value="Dance School">Dance School</option>
-          <option value="Martial arts coaching">Martial arts coaching</option>
-          <option value="Music schools">Music schools</option>
-         <option value="Sports Acadamy">Sports Acadamy</option>
-   </optgroup>
-
-  <optgroup label="INSTALMENTS">
-      <option value="Hire Purchase">Hire Purchase</option>
-      <option value="Small Money Lender">Small Money Lender</option>
-  </optgroup>
-
-  <optgroup label="INVOICES">
-      <option value="Manufacturer">Manufacturer</option>
-      <option value="Trader">Trader</option>
-      <option value="Wholesaler">Wholesaler</option>
-  </optgroup>
-
-   <optgroup label="MAINTENANCE">
-      <option value="Air conditioner">Air conditioner</option>
-      <option value="Building">Building</option>
-      <option value="Home Appliances">Home Appliances</option>
-      <option value="Vehicle">Vehicle</option>
-  </optgroup>
-
-  <optgroup label="RENTALS">
-          <option value="Aircon rentals">Aircon rentals</option>
-          <option value="Car rentals">Car rentals</option>
-          <option value="Computer rentals">Computer rentals</option>
-  </optgroup>
-
-  <optgroup label="SAVINGS">
-       <option value="Finance Chit">Finance Chit</option>
-        <option value="Gold Chit">Gold Chit</option>
-</optgroup>
-
-<optgroup label="SUBSCRIPTION">
-        <option value="Club">Club</option>
-        <option value="Gym">Gym</option>
-        <option value="Magazine">Magazine</option>
-        <option value="SaaS">SaaS</option>
-</optgroup>
-
- <optgroup label="OTHERS">
-       <option value="Others">Others</option>
-
-</optgroup>
-
-</select>
-          </div>   
-         <!-- Submit and Close Buttons -->
-         <div class="d-flex justify-content-end">
-          <button type="submit" class="btn me-2" style="background-color: #fe015b" >Submit</button>
-        </div>            
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
+<?php
+    include( './includes/request_demo.php');
+?>
 
 
 <section class="banner d-flex align-items-center">
@@ -265,7 +39,7 @@
       </div>
 </section>
 
-<section class="about-section section bg-tertiary position-relative overflow-hidden">
+<section class="about-section section bg-tertiary position-relative overflow-hidden" id="help2">
   <div class="container">
     <div class="row align-items-center">
          <div class="section-title text-center">
@@ -291,13 +65,13 @@
 
       </div>
       <div class="col-lg-5">
-        <div class="section-title ">
+        <div class="section-title">
           <h1>Send Automated Reminders With Payment Options</h1>
           <p>Elevate your patient/customer payment experience with our electronic payment solution, 
             enabling effortless contactless transactions that enhance payment reception, elevate customer 
             engagement, and streamline the payment process.</p>
             <a type="button"
-            class="btn fs-6" href="signup.html" style="background-color: #fe015b"><span></span>Free Sign Up</a>
+            class="btn fs-6" href="signup.php" style="background-color: #fe015b"><span></span>Free Sign Up</a>
             <a type="button"
             class="btn fs-6" href="#" style="background-color: #fe015b" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Request Demo
             </a>
@@ -325,7 +99,7 @@
             <h1>Receive Payment Notification</h1>
             <p>A Mobile app to notify when payments are received and list down the defaulters </p>
               <a type="button"
-              class="btn fs-6" href="signup.html" style="background-color: #fe015b"><span></span>Free Sign Up</a>
+              class="btn fs-6" href="signup.php" style="background-color: #fe015b"><span></span>Free Sign Up</a>
               <a type="button"
             class="btn fs-6" href="#" style="background-color: #fe015b" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Request Demo
             </a>
@@ -409,7 +183,7 @@
         <div class="row justify-content-center align-items-center pt-4">
           <div class="text-center">
           <a type="button"
-          class="btn fs-6" href="signup.html" style="background-color: #fe015b"><span></span>Free Sign Up</a>
+          class="btn fs-6" href="signup.php" style="background-color: #fe015b"><span></span>Free Sign Up</a>
           <a type="button"
                 class="btn fs-6" href="#" style="background-color: #fe015b" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Request Demo
                 </a>
@@ -459,7 +233,7 @@
                       </div>
                       <div class="col-lg-4 text-center mt-2">
                         <div class=""><img src="images/bg/icons/fund6.png" width="60px" height="auto" class="img-fluid">
-                          <h3>Others</h3>
+                          <h3>Other Businesses</h3>
                               <p>No matter the type of business you operate, Zeppay's versatile software streamlines payment collection processes, ensuring consistent and efficient billing across various business verticals, making financial management hassle-free.
                                   </p>
                               </div>
@@ -468,7 +242,7 @@
     <div class="row justify-content-center align-items-center pt-4">
       <div class="text-center">
       <a type="button"
-      class="btn fs-6" href="signup.html" style="background-color: #fe015b"><span></span>Free Sign Up</a>
+      class="btn fs-6" href="signup.php" style="background-color: #fe015b"><span></span>Free Sign Up</a>
       <a type="button"
             class="btn fs-6" href="#" style="background-color: #fe015b" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Request Demo
             </a>
@@ -542,7 +316,7 @@
     <div class="row justify-content-center align-items-center pt-4">
       <div class="text-center">
       <a type="button"
-      class="btn fs-6" href="signup.html" style="background-color: #fe015b"><span></span>Free Sign Up</a>
+      class="btn fs-6" href="signup.php" style="background-color: #fe015b"><span></span>Free Sign Up</a>
       <a type="button"
             class="btn fs-6" href="#" style="background-color: #fe015b" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Request Demo
             </a>
@@ -602,7 +376,7 @@
               <p>Choose Zeppay for a seamless, efficient, and cost-effective payment collection solution. We're here to support your healthcare business every step of the way.</p>
               <hr>
               <a type="button"
-              class="btn fs-6" href="signup.html" style="background-color: #fe015b"><span></span>Free Sign Up</a>
+              class="btn fs-6" href="signup.php" style="background-color: #fe015b"><span></span>Free Sign Up</a>
               <a type="button"
                     class="btn fs-6" href="#" style="background-color: #fe015b" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Request Demo
                     </a>
@@ -628,7 +402,7 @@
     <div class="row justify-content-center align-items-center pt-4">
       <div class="text-center">
       <a type="button"
-      class="btn fs-6" href="signup.html" style="background-color: #fe015b"><span></span>Free Sign Up</a>
+      class="btn fs-6" href="signup.php" style="background-color: #fe015b"><span></span>Free Sign Up</a>
       <a type="button"
             class="btn fs-6" href="#" style="background-color: #fe015b" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Request Demo
             </a>
@@ -636,112 +410,8 @@
     </div>
   </div>
   </section>
-
-<footer class="footer section" style="background-color: #ebeaed" >
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 mr-auto col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<div class="logo mb-4">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="" width="200" height="auto" class="img-fluid">
-            </a>
-					</div>
-					<h3 class="text-black">United States
-					</h3>
-					<a class="text-black">
-						478 Westgate Dr.</a>
-						<br><a class="text-black">Edison, NJ 08820
-            </a>
-
-						<h6 class="mt-4"><a href="tel:+332-269-9104" class="text-black"> <i class="bi bi-telephone-fill" style="color:#F4104E"></i> +1 (617) 800-4606</a></h6>
-						<h6><a href="mailto:info@zeppay.com" class="text-black"> <i class="bi bi-envelope-fill" style="color:#F4104E"></i> info@zeppay.com</a></h6>
-	
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize text-black" >Singapore</h4>
-          <p class="text-black">8, New Industrial Road #06-03
-	          Singapore 536200</p>
-					<ul class="list-unstyled footer-menu mb-4 lh-35">
-						<h6><a href="tel: +65 9895 1817"  class="text-black" > <i class="bi bi-telephone-fill" style="color:#F4104E"></i>   +65 9895 1817</a></h6>
-						<h6><a href="mailto:info@zeppay.com"  class="text-black"> <i class="bi bi-envelope-fill" style="color:#F4104E"></i> info@zeppay.com</a></h6>
-					</ul>
-
-					<h4 class="text-capitalize  mt-4 text-black">India</h4>
-					<p class="text-black">No. 7, A Block,
-						Second Avenue,
-						<br>Anna Nagar East,
-						Chennai-600102</p>
-										<ul class="list-unstyled footer-menu lh-35">
-											<h6><a href="tel:  +91 8438552750" class="text-black"> <i class="bi bi-telephone-fill " style="color:#F4104E"></i> +91 8438552750</a></h6>
-											<h6><a href="mailto:info@zeppay.com" class="text-black"><i class="bi bi-envelope-fill" style="color:#F4104E"></i> info@zeppay.com</a></h6>
-										</ul>
-
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize text-black">Quick Link</h4>
-
-					<ul class="list-unstyled footer-menu lh-35 ">
-						<li><a href="index.html" class="text-black">Home</a></li>
-						<li><a href="features.html" class="text-black">Features</a></li>
-						<li><a href="#" class="text-black">Upgrade</a></li>
-						<li><a href="https://blog.zeppay.com/" class="text-black">Blog</a></li>
-						<li><a href="contact.html" class="text-black">Contact Us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget widget-contact mb-5 mb-lg-0">
-					<h4 class="text-capitalize text-black">Our Policies</h4>
-					<ul class="list-unstyled footer-menu lh-35 ">
-						<li><a href="personal-data-protection-policy.html" class="text-black">Privacy Policy</a></li>
-						<li><a href="terms-and-conditions.html" class="text-black">Terms of Use</a></li>
-					</ul>
-
-          <ul class="list-unstyled list-inline mb-0 social-icons pt-2">
-            <li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-black" href="https://www.facebook.com/zeppaysoftware"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black" href="https://twitter.com/zeppaysoftware"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li class="list-inline-item me-3"><a title="Explorer Youtube Profile" class="text-black" href="https://www.youtube.com/channel/UCEH4u3Wm8WWTTKq836Ct0EA"><i class="fab fa-youtube"></i></a>
-            </li>
-            <li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-black" href="https://www.instagram.com/zeppay_software"><i class="fab fa-instagram"></i></a>
-            </li>
-          </ul>
-				</div>
-			</div>
-		</div>
-		
-		<div class="footer-btm py-4">
-			<div class="row">
-				<div class="col-lg-12 ">
-					<hr class="text-black">
-          <p class="text-black">Copyright © 2020, www.zeppay.com</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
+  <?php 
+    include('./includes/footer.php')
+  ?>
 
 
-<!-- # JS Plugins -->
-
-<script src="plugins/jquery/jquery.min.js"></script>
-<script src="plugins/bootstrap/bootstrap.min.js"></script>
-<script src="plugins/slick/slick.min.js"></script>
-<script src="plugins/scrollmenu/scrollmenu.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-
-<!-- Main Script -->
-<script src="js/script.js"></script>
-<script src="js/countrycode.js"></script>
-
-</body>
-</html>
