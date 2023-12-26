@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+    SAP Plugin makes Invoice Collection faster for SAP Users</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="description" content="This is meta description">
+	<meta name="author" content="Themefisher">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+	<!-- # Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- # CSS Plugins -->
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/font-awesome/fontawesome.min.css">
+	<link rel="stylesheet" href="plugins/font-awesome/brands.css">
+	<link rel="stylesheet" href="plugins/font-awesome/solid.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Country code phone input -->
+  <link rel="stylesheet" href="css/countrycode.css">
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+	<!-- # Main Style Sheet -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleh.css">
+    <link rel="stylesheet" href="css/planstyle.css">
+</head>
+
+<body>
+
+
+<!-- navigation -->
+<header class="navigation ">
+  <!-- top header -->
+ <div class="top-header" style="background-color: #fe015b;">
+   <div class="container">
+     <div class="row no-gutters">
+       <div class="col-lg-3 text-center text-lg-left">
+         
+       </div>
+       <div class="col-lg-9 d-flex justify-content-end pl-4">
+         <ul class="list-inline">
+           <li class="list-inline-item"><a class="text-white" href="signin.html">Login</a></li>
+           <li class="list-inline-item"><a type="button" class="px-2 py-1" style="background-color: white; color: #fe015b; border-radius: 2px;" href="signup.html" >Free Sign Up</a></li>
+           <li class="list-inline-item"><a type="button" class="px-2 py-1" style="background-color: white; color: #fe015b; border-radius: 2px;" href="" data-bs-toggle="modal" data-bs-target="#talkExpert">Request Demo</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+ </div>
+ <nav class="navbar navbar-expand-xl navbar-light text-center shadow-bottom">
+   <div class="container">
+     <div class="col-lg-8 d-flex justify-content-start"> 
+     <a class="navbar-brand" href="index.html">
+       <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="images/logo.png" alt="Wallet">
+     </a>
+   </div>
+
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+     </button>
+     
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     
+       <ul class="navbar-nav mx-auto mb-lg-0 ">
+
+         <!-- More menu items here -->
+       </ul>
+       <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6">
+         <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
+         </li>
+         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Who We Serve?</a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <ul>
+
+               <li><a class="dropdown-item" href="integrations-zoho.html">Zoho Users</a></li>
+               <li><a class="dropdown-item" href="integrations-Quickbooks.html">Quickbook Users</a></li>
+               <li><a class="dropdown-item" href="integrations-xero.html">Xero Users</a></li>
+               <li><a class="dropdown-item" href="integrations-wave.html">Wave Users</a></li>
+               <li><a class="dropdown-item" href="integrations-sap.html">SAP Users</a></li>
+             </ul>
+             <ul>
+               <li><a class="dropdown-item" href="integrations-FreshBooks.html">Freshbook Users</a></li>
+               <li><a class="dropdown-item" href="chits.html">Chits</a></li>
+               <li><a class="dropdown-item" href="school.html">Schools</a></li>
+               <li><a class="dropdown-item" href="Money-lenders.html">Money Lenders</a></li>
+               <li><a class="dropdown-item" href="Hire-purchase.html">Hire Purchase</a></li>
+             </ul>
+             <ul>
+
+               <li><a class="dropdown-item" href="Vehicle-rentals.html">Vehicle Rentals</a></li>
+               <li><a class="dropdown-item" href="Gyms-Fitness-Centers.html">Gyms</a></li>
+               <li><a class="dropdown-item" href="Vocational-Schools.html">Vocational Schools</a></li>
+               <li><a class="dropdown-item" href="Building-Apartment-Maintainance.html">Building Maintenance</a></li>
+               <li><a class="dropdown-item" href="Insurance-premiums.html">Insurance Premiums</a></li>
+             </ul>
+             <ul>
+
+               <li><a class="dropdown-item" href="Magazine-billing.html">Magazine Billing</a></li>
+               <li><a class="dropdown-item" href="Machinery-Rentals.html">Machinery Rentals</a></li>
+               <li><a class="dropdown-item" href="saas.html">SaaS Companies</a></li>
+               <li><a class="dropdown-item" href="Debt-Collection-Software.html">Debt Collection Software</a></li>
+               <li><a class="dropdown-item" href="Sports-Academy-Fees-Collection-Software.html">Sports Academy</a></li>
+           </ul>
+         </div>
+         </li>
+         <li class="nav-item"> <a class="nav-link" href="pricing.html">Pricing</a>
+         </li>
+         <li class="nav-item "> <a class="nav-link" href="contact.html">Contact</a>
+         </li>
+         </li>
+         <!-- More menu items here -->
+       </ul>
+      
+     </div>
+     </div>
+
+
+ </nav>
+</header>
+<!-- /navigation -->
+
+<div class="modal talkExpertModal fade" id="talkExpert" tabindex="-1" aria-labelledby="talkExpertLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-tertiary">
+      <div class="modal-header border-bottom-0">
+        <h4 class="modal-title" id="exampleModalLabel">Talk To An Expert</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="#!" method="post">
+          <!-- Name and Business Type Inputs -->
+          <div class="mb-3 form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Your Name">
+          </div>
+          <!-- Phone Number Input in Bootstrap Form -->
+          <div class="mb-3 select-box">
+          <div class="selected-option">
+          <div>
+          <span class="iconify" data-icon="flag:in-4x3"></span>
+          <strong>+91</strong>
+          </div>
+          <input type="tel" name="tel" class="form-control" placeholder="Your Phone Number">
+          </div>
+          <div class="options">
+          <input type="text" class="search-box" placeholder="Search Country Name">
+          <ol>
+            
+          </ol>
+          </div>
+          </div>
+          <div class="form-group mb-3">
+            <label for="business_type" class="fw-bold">Business Type</label>
+            <select name="business_type" id="business_type" class="form-control form-select" required="">
+            <option value="" selected="" disabled="">Choose Your Business Type</option>
+  <optgroup label="FEES">
+          <option value="Badmiton coaching">Badmiton coaching</option>
+          <option value="Dance School">Dance School</option>
+          <option value="Martial arts coaching">Martial arts coaching</option>
+          <option value="Music schools">Music schools</option>
+         <option value="Sports Acadamy">Sports Acadamy</option>
+   </optgroup>
+
+  <optgroup label="INSTALMENTS">
+      <option value="Hire Purchase">Hire Purchase</option>
+      <option value="Small Money Lender">Small Money Lender</option>
+  </optgroup>
+
+  <optgroup label="INVOICES">
+      <option value="Manufacturer">Manufacturer</option>
+      <option value="Trader">Trader</option>
+      <option value="Wholesaler">Wholesaler</option>
+  </optgroup>
+
+   <optgroup label="MAINTENANCE">
+      <option value="Air conditioner">Air conditioner</option>
+      <option value="Building">Building</option>
+      <option value="Home Appliances">Home Appliances</option>
+      <option value="Vehicle">Vehicle</option>
+  </optgroup>
+
+  <optgroup label="RENTALS">
+          <option value="Aircon rentals">Aircon rentals</option>
+          <option value="Car rentals">Car rentals</option>
+          <option value="Computer rentals">Computer rentals</option>
+  </optgroup>
+
+  <optgroup label="SAVINGS">
+       <option value="Finance Chit">Finance Chit</option>
+        <option value="Gold Chit">Gold Chit</option>
+</optgroup>
+
+<optgroup label="SUBSCRIPTION">
+        <option value="Club">Club</option>
+        <option value="Gym">Gym</option>
+        <option value="Magazine">Magazine</option>
+        <option value="SaaS">SaaS</option>
+</optgroup>
+
+ <optgroup label="OTHERS">
+       <option value="Others">Others</option>
+
+</optgroup>
+
+</select>
+          </div>   
+         <!-- Submit and Close Buttons -->
+         <div class="d-flex justify-content-end">
+          <button type="submit" class="btn me-2" style="background-color: #fe015b" >Submit</button>
+        </div>            
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <section class=" position-relative overflow-hidden pt-4 pb-4">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-6">
+          <div class="section-title">
+            <h1 class="text-capitalize mb-4">Chase Your Invoices Directly From SAP</h1>
+            <p>Collect your Invoices 3 times faster by sending reminders with payment links!</p>
+                <a type="button"
+                class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target=""><span></span>Try Software Now
+                </a>
+                <a type="button"
+            class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Talk to an
+            Expert</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-1 text-center text-lg-end">
+          
+        </div>  
+        <div class="col-lg-7 text-center text-lg-end">
+          <img loading="lazy" decoding="async" src="images/bg/features/chits.png" alt="About Ourselves" class="img-fluid rounded ">
+          <img loading="lazy" decoding="async" src="images/bg/features/sap.png" width="20%" height="auto" class="img-fluid logoanim logoanimq">
+        </div>   
+      </div>
+    </div>
+    </section>
+    <section class="pt-4 pb-4">
+      <div class="container mt-4">
+        <div class="row mt-2 align-items-center justify-content-between">
+          <div class="section-title text-center">
+            <!-- <p class="text-primary text-uppercase fw-bold mb-3">FEATURE HIGHLIGHTS</p> -->
+            <h1>Features of Zeppay's SAP <br> Plugin for SAP Users</h1>
+           
+          </div>
+          <div class="col-lg-3">
+            <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+              <div class="d-block d-sm-flex align-items-center m-2">
+                <div class="icon me-4 mb-4 mb-sm-0"> <img src="images/bg/icons/iconfeature.png" width="65" class="mt-1">
+                </div>
+                <div class="block">
+                  <p class="mb-3">WhatsApp Integration for Communication & Reminders.</p>
+                </div>
+              </div>
+            </div>
+            <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+              <div class="d-block d-sm-flex align-items-center m-2">
+                <div class="icon me-4 mb-4 mb-sm-0"><img src="images/bg/icons/iconchit.png" width="70" class="mt-1">
+                </div>
+                <div class="block">
+                  <p class="mb-3">Payment Gateway Integration for Faster Processing.</p>
+                </div>
+              </div>
+            </div>
+            <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+              <div class="d-block d-sm-flex align-items-center m-2">
+                <div class="icon me-4 mb-4 mb-sm-0"> <img src="images/bg/icons/iconfeature3.png" width="65" class="mt-1">
+                </div>
+                <div class="block">
+                  <p class="mb-3">Accounting Software Synchronization to Refresh Data.</p>
+                </div>
+              </div>
+            </div>             
+            </div>
+          <div class="col-lg-6">
+            <img src="images/bg/features/feature-zeppay.png" alt="Image 1" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-3">
+            <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+              <div class="d-block d-sm-flex align-items-center m-2">
+                <div class="icon me-4 mb-4 mb-sm-0"> <img src="images/bg/icons/iconfeature2.png" width="65" class="mt-1">
+                </div>
+                <div class="block">
+                  <p class="mb-3">Dashboard showing Cash Projections, Collections and Defaulters</p>
+                </div>
+              </div>
+            </div>
+            <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+              <div class="d-block d-sm-flex align-items-center m-2">
+                <div class="icon me-4 mb-4 mb-sm-0">  <img src="images/bg/icons/iconchit3.png" width="65" class="mt-1">
+                </div>
+                <div class="block">
+                  <p class="mb-3">Click-to-Call with Recording Feature.</p>
+                </div>
+              </div>
+            </div>
+            <div class="difference-of-us-item p-3 rounded mr-0 me-lg-4">
+              <div class="d-block d-sm-flex align-items-center m-2">
+                <div class="icon me-4 mb-4 mb-sm-0"> <img src="images/bg/icons/iconfeature6.png" width="65" class="mt-1">
+                </div>
+                <div class="block">
+                  <p class="mb-3">Automated Reminders via WhatsApp, SMS, and Email.</p>
+                </div>
+              </div>
+            </div>             
+            </div>
+        </div>
+        <div class="text-center">
+        <a type="button"
+        class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target=""><span></span>Try Software Now
+        </a>
+        <a type="button"
+    class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Talk to an
+    Expert</a>
+      </div>
+    </div>
+      </section>
+    
+<section class="about-section position-relative overflow-hidden">
+  <div class="container mt-4 mb-4">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-1 text-center text-lg-end">
+      
+      </div>
+      <div class="col-lg-5">
+        <div class="section-title">
+          <h1>Why Zeppay?</h1>
+          <ul style="color:#000" class="m-0 ml-3 p-3 text-black ">
+            <li class="py-2"><strong>Free Onboarding</strong>
+              <br>No cost account creation with free credits to try-before-buy.<br> </li>
+            <li class="py-2"><strong>Chat Customer Service</strong>
+              <br>Integrated chat support to resolve questions and expedite payments.<br> </li>
+            <li class="py-2"><strong>Quick Implementation</strong>
+              <br>Our experts will help you setup your account in minutes at no cost.<br> </li>
+            <li class="py-2"><strong>Transactional Pricing</strong>
+              <br>Our per-invoice fixed cost helps you keep more of the money you collect.<br> </li>
+            <li class="py-2"><strong>Super Easy Interface</strong>
+              <br>Intuitive interface requires no training. <br> </li>
+            <li class="py-2 mb-4"><strong>Import Invoices from Accounting Softwares</strong>
+              <br>Use existing software integrations or Excel to import invoice and customer data.<br> </li>    
+          </ul>
+          <a type="button"
+          class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target=""><span></span>Try Software Now
+          </a>
+          <a type="button"
+      class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Talk to an
+      Expert</a>
+          
+        </div>
+      </div>
+      <div class="col-lg-6 text-center text-lg-end">
+        <img loading="lazy" decoding="async" src="images/bg/method.gif" alt="About Ourselves" class="img-fluid" width="600px" height="auto" >
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-section position-relative overflow-hidden">
+  <div class="container mt-4 mb-4">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-6 text-center text-lg-end">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-4 col-md-4 col-sm-2">
+            <img src="images/bg/comlogo1.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-2">
+            <img src="images/bg/comlogo2.png" width="120px" height="120px" alt="" class="img-fluid">
+          </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-3 col-sm-2">
+            <img src="images/bg/comlogo3.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-2">
+            <img src="images/bg/comlogo5.png" alt="" class="img-fluid">
+          </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-3 col-sm-2">
+            <img src="images/bg/comlogo6.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-3 col-sm-2">
+            <img src="images/bg/comlogo7.png" alt="" class="img-fluid">
+          </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-3 col-sm-2">
+            <img src="images/bg/comlogo8.png" alt="" class="img-fluid">
+          </div>
+          </div>
+        </div>
+       
+      <div class="col-lg-5">
+        <div class="section-title">
+          <h1>Works Standalone Or Syncs To Your Current Software</h1>
+          <p class="lead mb-0 mt-4">
+            <p>You can create payment requests using only zeppay or can instantly sync to your existing accounting software and send reminders automatically.</p> 
+          </p> 
+          <a type="button"
+          class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target=""><span></span>Try Software Now
+          </a>
+          <a type="button"
+      class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Talk to an
+      Expert</a>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="about-section position-relative overflow-hidden pt-4 pb-4">
+  <div class="container mt-4">
+    <div class="row align-items-center">
+         <div class="section-title text-center">
+          <!-- <p class="text-primary text-uppercase fw-bold mb-3">About Reach</p> -->
+          <h1>Pricing Plans</h1>
+        <p>Supercharge your Cash Flow..</p>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-4 text-center pt-4 pb-4 " style="border: 1px solid #fe015b; border-radius: 10px;">
+          <p><b>Simple Pricing</b></p>
+          <p>Increase Collections, Prevent <br> Cancellation and Save cost of a <br> fully time employee</p>
+          <h1>SGD1</h1>
+          <p><b>Per Customer Bill</b></p>
+          <a type="button"
+        class="btn fs-6" style="background-color: #fe015b" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Get Started
+        </a>
+          
+        </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+      
+    <div class="row justify-content-center align-items-center ">
+      <div class="section-title text-center">
+      <h1>Our Payment Partners</h1>
+      </div>
+      <div class="text-center">
+        <img src="images/bg/paymentmethod.png" width="100%" class="px-3">  
+    </div>
+    </div>
+
+    <div class="row justify-content-center align-items-center pt-4">
+      <div class="text-center">
+      <a type="button"
+      class="btn fs-6" href="#" style="background-color: #fe015b"><span></span>Free Sign Up</a>
+      <a type="button"
+            class="btn fs-6" href="#" style="background-color: #fe015b" data-bs-toggle="modal" data-bs-target="#talkExpert"><span></span>Request Demo
+            </a>
+    </div>
+    </div>
+  </div>
+  </section>
+
+
+  <footer class="footer section" style="background-color: #ebeaed" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mr-auto col-sm-6">
+          <div class="widget mb-5 mb-lg-0">
+            <div class="logo mb-4">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="" width="200" height="auto" class="img-fluid">
+              </a>
+            </div>
+            <h3 class="text-black">United States
+            </h3>
+            <a class="text-black">
+              478 Westgate Dr.</a>
+              <br><a class="text-black">Edison, NJ 08820
+              </a>
+  
+              <h6 class="mt-4"><a href="tel:+332-269-9104" class="text-black"> <i class="bi bi-telephone-fill" style="color:#F4104E"></i> +1 (617) 800-4606</a></h6>
+              <h6><a href="mailto:info@zeppay.com" class="text-black"> <i class="bi bi-envelope-fill" style="color:#F4104E"></i> info@zeppay.com</a></h6>
+    
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="widget mb-5 mb-lg-0">
+            <h4 class="text-capitalize text-black" >Singapore</h4>
+            <p class="text-black">8, New Industrial Road #06-03
+              Singapore 536200</p>
+            <ul class="list-unstyled footer-menu mb-4 lh-35">
+              <h6><a href="tel: +65 9895 1817"  class="text-black" > <i class="bi bi-telephone-fill" style="color:#F4104E"></i>   +65 9895 1817</a></h6>
+              <h6><a href="mailto:info@zeppay.com"  class="text-black"> <i class="bi bi-envelope-fill" style="color:#F4104E"></i> info@zeppay.com</a></h6>
+            </ul>
+  
+            <h4 class="text-capitalize  mt-4 text-black">India</h4>
+            <p class="text-black">No. 7, A Block,
+              Second Avenue,
+              <br>Anna Nagar East,
+              Chennai-600102</p>
+                      <ul class="list-unstyled footer-menu lh-35">
+                        <h6><a href="tel:  +91 8438552750" class="text-black"> <i class="bi bi-telephone-fill " style="color:#F4104E"></i> +91 8438552750</a></h6>
+                        <h6><a href="mailto:info@zeppay.com" class="text-black"><i class="bi bi-envelope-fill" style="color:#F4104E"></i> info@zeppay.com</a></h6>
+                      </ul>
+  
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="widget mb-5 mb-lg-0">
+            <h4 class="text-capitalize text-black">Quick Link</h4>
+  
+            <ul class="list-unstyled footer-menu lh-35 ">
+              <li><a href="index.html" class="text-black">Home</a></li>
+              <li><a href="features.html" class="text-black">Features</a></li>
+              <li><a href="#" class="text-black">Upgrade</a></li>
+              <li><a href="https://blog.zeppay.com/" class="text-black">Blog</a></li>
+              <li><a href="contact.html" class="text-black">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="widget widget-contact mb-5 mb-lg-0">
+            <h4 class="text-capitalize text-black">Our Policies</h4>
+            <ul class="list-unstyled footer-menu lh-35 ">
+              <li><a href="personal-data-protection-policy.html" class="text-black">Privacy Policy</a></li>
+              <li><a href="terms-and-conditions.html" class="text-black">Terms of Use</a></li>
+            </ul>
+  
+            <ul class="list-unstyled list-inline mb-0 social-icons pt-2">
+              <li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-black" href="https://www.facebook.com/zeppaysoftware"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black" href="https://twitter.com/zeppaysoftware"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item me-3"><a title="Explorer Youtube Profile" class="text-black" href="https://www.youtube.com/channel/UCEH4u3Wm8WWTTKq836Ct0EA"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-black" href="https://www.instagram.com/zeppay_software"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-btm py-4">
+        <div class="row">
+          <div class="col-lg-12 ">
+            <hr class="text-black">
+            <p class="text-black">Copyright © 2020, www.zeppay.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+<!-- # JS Plugins -->
+
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/scrollmenu/scrollmenu.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script src="js/countrycode.js"></script>
+
+</body>
+</html>
